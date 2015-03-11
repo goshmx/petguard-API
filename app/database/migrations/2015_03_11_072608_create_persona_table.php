@@ -23,6 +23,7 @@ class CreatePersonaTable extends Migration {
             $table->binary('foto');
             $table->text('email');
             $table->boolean('activo')->default(true);
+            $table->boolean('estado')->default(true);
 		});
 	}
 

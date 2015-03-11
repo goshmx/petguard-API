@@ -29,6 +29,7 @@ class CreateMascotaTable extends Migration {
             $table->text('lat');
             $table->text('lon');
             $table->binary('foto');
+            $table->boolean('estado')->default(true);
 
 		});
 	}
